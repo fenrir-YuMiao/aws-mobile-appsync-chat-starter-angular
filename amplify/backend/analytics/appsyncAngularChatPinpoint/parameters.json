@@ -1,0 +1,21 @@
+{
+    "appName": "appsyncAngularChatPinpoint",
+    "roleName": "pinpointLambdaRole2e48bf3a",
+    "cloudformationPolicyName": "cloudformationPolicy2e48bf3a",
+    "cloudWatchPolicyName": "cloudWatchPolicy2e48bf3a",
+    "pinpointPolicyName": "pinpointPolicy2e48bf3a",
+    "authPolicyName": "pinpoint_amplify_2e48bf3a",
+    "unauthPolicyName": "pinpoint_amplify_2e48bf3a",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

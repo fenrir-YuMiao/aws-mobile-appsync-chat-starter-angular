@@ -1,0 +1,26 @@
+{
+    "angular": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-appsyncangularchat-angular-104634-authRole",
+            "UnauthRoleArn": "arn:aws:iam::410523113278:role/amplify-appsyncangularchat-angular-104634-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::410523113278:role/amplify-appsyncangularchat-angular-104634-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-appsyncangularchat-angular-104634-deployment",
+            "UnauthRoleName": "amplify-appsyncangularchat-angular-104634-unauthRole",
+            "StackName": "amplify-appsyncangularchat-angular-104634",
+            "StackId": "arn:aws:cloudformation:us-east-2:410523113278:stack/amplify-appsyncangularchat-angular-104634/5997e230-7ec3-11ea-bcf5-06d398e7edd6",
+            "AmplifyAppId": "d1dj4oz7m4iol6"
+        },
+        "categories": {
+            "auth": {
+                "appsyncangularchata18d22d0": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1dj4oz7m4iol6",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
